@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100%" height="100%">
+  <defs>
+    <!-- Deeper Gold Gradient for White Backgrounds -->
+    <linearGradient id="scotGoldLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Outer Camera Viewfinder Brackets -->
+  <g fill="none" stroke="url(#scotGoldLight)" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top-Left -->
+    <path d="M 164 324 V 204 A 40 40 0 0 1 204 164 H 324" />
+    <!-- Top-Right -->
+    <path d="M 700 164 H 820 A 40 40 0 0 1 860 204 V 324" />
+    <!-- Bottom-Left -->
+    <path d="M 164 700 V 820 A 40 40 0 0 0 204 860 H 324" />
+    <!-- Bottom-Right -->
+    <path d="M 700 860 H 820 A 40 40 0 0 0 860 820 V 700" />
+  </g>
+
+  <!-- 2. Inner QR Code Structure (Dark Navy #0F172A for White Backgrounds) -->
+  <!-- Top-Left Finder Square + Center Scan Dot -->
+  <g fill="#0F172A">
+    <rect x="296" y="296" width="180" height="180" rx="36" fill="none" stroke="#0F172A" stroke-width="32" />
+    <rect x="352" y="352" width="68" height="68" rx="14" />
+  </g>
+
+  <!-- Top-Right Finder Square + Center Scan Dot -->
+  <g fill="#0F172A">
+    <rect x="548" y="296" width="180" height="180" rx="36" fill="none" stroke="#0F172A" stroke-width="32" />
+    <rect x="604" y="352" width="68" height="68" rx="14" />
+  </g>
+
+  <!-- Bottom-Left Finder Square + Center Scan Dot -->
+  <g fill="#0F172A">
+    <rect x="296" y="548" width="180" height="180" rx="36" fill="none" stroke="#0F172A" stroke-width="32" />
+    <rect x="352" y="604" width="68" height="68" rx="14" />
+  </g>
+
+  <!-- Bottom-Right QR Data Dots (2x2 Grid) -->
+  <g fill="url(#scotGoldLight)">
+    <rect x="536" y="536" width="84" height="84" rx="18" />
+    <rect x="656" y="536" width="84" height="84" rx="18" />
+    <rect x="536" y="656" width="84" height="84" rx="18" />
+    <rect x="656" y="656" width="84" height="84" rx="18" />
+  </g>
+
+  <!-- 3. Solid Emerald Scan Line -->
+  <line x1="124" y1="512" x2="900" y2="512" stroke="#10B981" stroke-width="28" stroke-linecap="round" />
+</svg>
