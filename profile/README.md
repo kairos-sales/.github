@@ -9,20 +9,21 @@
 <h1 align="center">KairosPayment</h1>
 
 <p align="center">
-  <strong>Multi-event, white-label ticketing, on-site POS, and offline-capable gate check-in — engineered by <a href="https://www.americandigitalservices.com/">American Digital Services</a>.</strong>
+  <strong>Multi-event, white-label ticketing, on-site POS, offline-capable gate check-in, CRM, and email marketing — engineered by <a href="https://www.americandigitalservices.com/">American Digital Services</a>.</strong>
 </p>
 
 ---
 
 ### What We Build
 
-**KairosPayment** is an end-to-end event commerce and operations platform built for real-world live events — from conferences, trade shows, and athletic races to concerts, performing arts, festivals, and community galas.
+**KairosPayment** is an end-to-end event commerce, marketing, and operations platform built for real-world live events — from festivals, fairs, and athletic competitions to conferences, trade shows, concerts, and community galas.
 
-- **Online Storefront & WordPress Integration:** Branded multi-event web storefronts, embeddable checkout, capacity controls, and digital QR passes.
-- **Native Mobile Point of Sale (iOS & Android):** Fast box-office, merchandise, and concession sales powered by Stripe Terminal hardware and Apple Tap to Pay on iPhone, with dual cash/card pricing support.
-- **Offline Cryptographic Gate Check-In:** High-speed bulk QR scanning with Ed25519 signature verification that keeps entry lanes moving even when venue Wi-Fi or cellular service drops.
-- **Operations Control Plane & Bulk Ticket Press:** Real-time multi-event dashboards, role-based access control, financial Excel reporting, and print-ready ticket sheet generation.
-- **Resilient Hybrid Cloud + On-Site Edge:** Cloud-hosted ticketing paired with an optional local edge appliance for uninterrupted event-day operations.
+- **Online Storefront & WordPress Commerce:** Branded multi-event web storefronts, embeddable checkout, capacity controls, digital QR passes, a live WordPress catalog plugin (`kairos-payment`), and a native **Gravity Forms payment add-on** (`kairos-payment-gravity`).
+- **Native Mobile Point of Sale (iOS / iPadOS & Android):** Fast box-office, merchandise, and concession sales powered by Stripe Terminal hardware and Apple Tap to Pay on iPhone, with dual cash/card pricing support.
+- **Offline Cryptographic Gate Check-In:** High-speed bulk QR scanning (`scanner_only` kiosk mode) with Ed25519 signature verification that keeps entry lanes moving even when venue Wi-Fi or cellular service drops.
+- **Operations Control Plane, 6-Role RBAC & Bulk Ticket Press:** Real-time multi-event dashboards, strict role-based access control (`superadmin`, `manager`, `box_office`, `accountant`, `marketing`, `viewer`), 3-sheet financial Excel workbooks, and print-ready ticket sheet generation.
+- **First-Party Email Marketing & Customer CRM:** Dynamic audience segmentation, reusable merge-token templates, queued batch delivery, privacy-clean logo-URL open tracking, one-click unsubscribe management, and unified organization/mailing profiles.
+- **Resilient Hybrid Cloud + On-Site Edge:** Cloud-hosted ticketing paired with an optional local Docker edge appliance for uninterrupted event-day operations.
 
 ### Learn More
 
