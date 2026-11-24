@@ -2,21 +2,27 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/logo-light.svg">
-    <img alt="KairosPayment" src="./assets/logo-light.svg" width="110">
+    <img alt="KairosEvents" src="./assets/logo-light.svg" width="110">
   </picture>
 </p>
 
-<h1 align="center">KairosPayment</h1>
+<h1 align="center">KairosEvents.app</h1>
 
 <p align="center">
   <strong>Multi-event, white-label ticketing, on-site POS, offline-capable gate check-in, CRM, and email marketing — engineered by <a href="https://www.americandigitalservices.com/">American Digital Services</a>.</strong>
+</p>
+
+<p align="center">
+  <a href="https://kairosevents.app/">Website (KairosEvents.app)</a> ·
+  <a href="https://demo.americandigitalservices.com">Live Demo</a> ·
+  <a href="https://www.americandigitalservices.com/">American Digital Services</a>
 </p>
 
 ---
 
 ### What We Build
 
-**KairosPayment** is an end-to-end event commerce, marketing, and operations platform built for real-world live events — from festivals, fairs, and athletic competitions to conferences, trade shows, concerts, and community galas.
+**KairosEvents** is an end-to-end event commerce, marketing, and operations platform built for real-world live events — from festivals, fairs, and athletic competitions to conferences, trade shows, concerts, and community galas.
 
 - **Online Storefront & WordPress Commerce:** Branded multi-event web storefronts, embeddable checkout, capacity controls, digital QR passes, a live WordPress catalog plugin (`kairos-payment`), and a native **Gravity Forms payment add-on** (`kairos-payment-gravity`).
 - **Native Mobile Point of Sale (iOS / iPadOS & Android):** Fast box-office, merchandise, and concession sales powered by Stripe Terminal hardware and Apple Tap to Pay on iPhone, with dual cash/card pricing support.
@@ -27,6 +33,6 @@
 
 ### Learn More
 
-KairosPayment is developed and operated by **[American Digital Services](https://www.americandigitalservices.com/)**.
+KairosEvents is developed and operated by **[American Digital Services](https://www.americandigitalservices.com/)**.
 
-Visit **[americandigitalservices.com](https://www.americandigitalservices.com/)** for information, inquiries, and upcoming product details.
+Visit **[KairosEvents.app](https://kairosevents.app/)** or **[americandigitalservices.com](https://www.americandigitalservices.com/)** for live demos, tenant onboarding, and inquiries.
