@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://kairosevents.app/">Website (KairosEvents.app)</a> ·
-  <a href="https://demo.americandigitalservices.com">Live Demo</a> ·
+  <a href="https://www.americandigitalservices.com/public/industries/events-festivals-ticketing">Request Demo Access</a> ·
   <a href="https://www.americandigitalservices.com/">American Digital Services</a>
 </p>
 
